@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio</title>
+    
+    <script src="https://kit.fontawesome.com/98e9823e99.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+</head>
+<body>
+    
+    <nav id="nav" class="flex justify-between shadow-md py-6 px-8 sticky top-0">
+        <div id="logo_div">
+            <a id="logo" href="#">Momo.dev</a>
+        </div>
+        <ul class="flex nav-links">
+            <li class="mr-5"><a href="#home">Home</a></li>
+            <li class="mr-5"><a href="#about">About</a></li>
+            <li class="mr-5"><a href="#">Projects</a></li>
+            <li class="mr-5"><a href="#">Contact</a></li>
+        </ul>
+        <div class="mobile-bars"><i class="fa-solid fa-bars fa-2xl"></i></div>
+    </nav>
+    <div class="mobile-nav-menu hide">
+        <div class="close-mobile-bars"><i class="fa-solid fa-xmark fa-2xl"></i></div>
+        <ul>
+            <li class="nav-link-mobile"><a href="#">Home</a></li>
+            <li class="nav-link-mobile"><a href="#about">About</a></li>
+            <li class="nav-link-mobile"><a href="#">Projects</a></li>
+            <li class="nav-link-mobile"><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+    <main class="flex flex-col">
+        <section id="home" class="flex justify-center">
+            <div class="container flex flex-col">
+                <div class="hero-main flex gap-x-4">
+                    <div class="hero-text">
+                        <h1>Computer Science Student&#128075;</h1>
+                        <p class="text-xl pr-10">Hi, I'm Namoral Thy, a passionate Front-end Developer from Cambodia&#x1F4CC;</p>
+                        <div class="socials flex">
+                            <a href="#" class="mr-6"><i class="fa-brands fa-facebook fa-2xl"></i></a> 
+                            <a href="#" class="mr-6"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+                            <a href="#" class="mr-6"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+                            <a href="#" class="mr-6"><i class="fa-brands fa-github fa-2xl"></i></a>
+                        </div>
+                    </div>
+                    <div class="hero-img">
+                        <img src="images/hero_img.png" alt="hero image">
+                    </div>
+                </div>
+                <div class="skills mt-24 flex items-center">
+                    <p class="font-semibold pr-8 mr-24">Tech Stack</p>
+                    <ul class="flex justify-evenly">
+                        <li class="mr-5"><img src="https://skillicons.dev/icons?i=html" alt="skill-icon"></li>
+                        <li class="mr-5"><img src="https://skillicons.dev/icons?i=css" alt="skill-icon"></li>
+                        <li class="mr-5"><img src="https://skillicons.dev/icons?i=js" alt="skill-icon"></li>
+                        <li class="mr-5"><img src="https://skillicons.dev/icons?i=tailwind" alt="skill-icon"></li>
+                        <li class="mr-5"><img src="https://skillicons.dev/icons?i=react" alt="skill-icon"></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            
+        </section>
+    </main>
+
+</body>
+</html>
