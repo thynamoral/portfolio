@@ -18,10 +18,10 @@
             <a id="logo" href="#">Momo.dev</a>
         </div>
         <ul class="flex nav-links">
-            <li class="mr-5"><a href="#home">Home</a></li>
+            <li class="mr-5"><a href="#">Home</a></li>
             <li class="mr-5"><a href="#about">About</a></li>
-            <li class="mr-5"><a href="#">Projects</a></li>
-            <li class="mr-5"><a href="#">Contact</a></li>
+            <li class="mr-5"><a href="#projects">Projects</a></li>
+            <li class="mr-5"><a href="#contact">Contact</a></li>
         </ul>
         <div class="mobile-bars"><i class="fa-solid fa-bars fa-2xl"></i></div>
     </nav>
@@ -30,23 +30,23 @@
         <ul>
             <li class="nav-link-mobile"><a href="#">Home</a></li>
             <li class="nav-link-mobile"><a href="#about">About</a></li>
-            <li class="nav-link-mobile"><a href="#">Projects</a></li>
-            <li class="nav-link-mobile"><a href="#">Contact</a></li>
+            <li class="nav-link-mobile"><a href="#projects">Projects</a></li>
+            <li class="nav-link-mobile"><a href="#contact">Contact</a></li>
         </ul>
     </div>
 
     <main class="flex flex-col">
         <section id="home" class="flex justify-center">
-            <div class="container flex flex-col">
+            <div class="container flex flex-col justify-center">
                 <div class="hero-main flex gap-x-4">
                     <div class="hero-text">
                         <h1>Computer Science Student&#128075;</h1>
                         <p class="text-xl pr-10">Hi, I'm Namoral Thy, a passionate Front-end Developer from Cambodia&#x1F4CC;</p>
                         <div class="socials flex">
-                            <a href="#" class="mr-6"><i class="fa-brands fa-facebook fa-2xl"></i></a> 
-                            <a href="#" class="mr-6"><i class="fa-brands fa-instagram fa-2xl"></i></a>
-                            <a href="#" class="mr-6"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
-                            <a href="#" class="mr-6"><i class="fa-brands fa-github fa-2xl"></i></a>
+                            <a href="https://www.facebook.com/moralblaze/" class="mr-6" target="_blank"><i class="fa-brands fa-facebook fa-2xl"></i></a> 
+                            <a href="https://www.instagram.com/namoral_thy/" class="mr-6" target="_blank"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+                            <a href="https://www.linkedin.com/in/namoral-thy-2656b8234/" class="mr-6" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+                            <a href="https://github.com/thynamoral" class="mr-6" target="_blank"><i class="fa-brands fa-github fa-2xl"></i></a>
                         </div>
                     </div>
                     <div class="hero-img">
@@ -66,10 +66,148 @@
             </div>
         </section>
 
-        <section id="about">
-            
+        <section id="about" class="flex justify-center items-center">
+            <div class="container flex justify-around">
+                <div class="about-img flex">
+                    <img class="rounded-3xl" src="images/coding_img.jpg" alt="coding_image">
+                </div>
+                <div class="about-text flex flex-col items-center justify-between">
+                    <h3 id="about_me" class="font-bold text-2xl pb-2 px-2">ABOUT ME</h3>
+                    <p>
+                        I'm currently a third-year computer science student. My journey in the world of technology
+                        began with uncertainty after high school, but a scholarship opportunity changed the course of my life.
+                        Over the past three years, I have delved into various facets of computer science, immersing myself 
+                        in the depths of mathematics, statistics, data analysis, and computer graphics where I learned the art of creating engaging games.
+                        However, the field that truly captured my heart is web development. I am dedicated to the art of designing and
+                        maintaining responsive websites that provide users with a seamless and enjoyable experience. 
+                        I'm excited to continue this journey of interactive web experiences.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="flex justify-center items-center">
+            <div class="container">
+                <p class="font-semibold text-lg">PROJECTS</p>
+                <h3 class="font-bold text-2xl pb-2">Each project focuses on JavaScript to make them interactive &#129513;</h3>
+                <div class="all-projects flex flex-col gap-y-12">
+                    <div class="proj-lists flex items-center p-3 gap-x-20 shadow-lg rounded-3xl">
+                        <div class="proj-img flex">
+                            <img src="images/project_1.png" alt="project_1">
+                        </div>
+                        <div class="proj-text flex flex-col">
+                            <h3 class="text-center font-bold text-2xl">Shopping Lists</h3>
+                            <p class="opacity-75">This project enables you to create, manage, delete, and filter the items you want to purchase.
+                                 It also includes local storage functionality, allowing you to keep track of everything.
+                            </p>
+                            <div class="proj-ref flex justify-around mt-12">
+                                <a class="proj-code p-3 shadow-md round-2xl" target="_blank" href="https://github.com/thynamoral/shopping-lists">
+                                    Code <i class="fa-brands fa-github fa-xl"></i>
+                                </a>
+                                <a class="proj-demo p-3 shadow-md round-2xl" target="_blank" href="https://thynamoral.github.io/shopping-lists/">
+                                    Live Demo <i class="fa-solid fa-up-right-from-square fa-xl"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="proj-lists flex items-center flex-row-reverse p-3 gap-x-20 shadow-lg rounded-3xl">
+                        <div class="proj-img flex">
+                            <img src="images/project_2.png" alt="project_2">
+                        </div>
+                        <div class="proj-text flex flex-col">
+                            <h3 class="text-center font-bold text-2xl">Return Book Webpage</h3>
+                            <p class="opacity-75">This project allows users to input a date for borrowing and returning books in a system. 
+                               The maximum borrowing period varies based on the user's position. Additionally, it sends a fine message if a book is returned after the deadline.
+                            </p>
+                            <div class="proj-ref flex justify-around mt-12">
+                                <a class="proj-code p-3 shadow-md round-2xl" target="_blank" href="https://github.com/thynamoral/borrow-return-book">
+                                    Code <i class="fa-brands fa-github fa-xl"></i>
+                                </a>
+                                <a class="proj-demo p-3 shadow-md round-2xl" target="_blank" href="https://thynamoral.github.io/borrow-return-book/">
+                                    Live Demo <i class="fa-solid fa-up-right-from-square fa-xl"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="proj-lists flex items-center p-3 gap-x-20 shadow-lg rounded-3xl">
+                        <div class="proj-img flex">
+                            <img src="images/project_3.png" alt="project_3">
+                        </div>
+                        <div class="proj-text flex flex-col">
+                            <h3 class="text-center font-bold text-2xl">Candidate Review</h3>
+                            <p class="opacity-75">This is a straightforward project that manages user interactions when they click to switch between
+                                different candidates. When users click, it updates the image, position, and bio description.
+                            </p>
+                            <div class="proj-ref flex justify-around mt-12">
+                                <a class="proj-code p-3 shadow-md round-2xl" target="_blank" href="https://github.com/thynamoral/candidate-review">
+                                    Code <i class="fa-brands fa-github fa-xl"></i>
+                                </a>
+                                <a class="proj-demo p-3 shadow-md round-2xl" target="_blank" href="https://thynamoral.github.io/candidate-review/">
+                                    Live Demo <i class="fa-solid fa-up-right-from-square fa-xl"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="proj-lists flex items-center flex-row-reverse p-3 gap-x-20 shadow-lg rounded-3xl">
+                        <div class="proj-img flex">
+                            <img src="images/project_4.png" alt="project_4">
+                        </div>
+                        <div class="proj-text flex flex-col">
+                            <h3 class="text-center font-bold text-2xl">Ping Pong Score</h3>
+                            <p class="opacity-75">This project is an enjoyable way for me to keep track of the Ping Pong score in a two-player game. 
+                                It can be adapted for tracking scores in various other games or real-world projects.
+                            </p>
+                            <div class="proj-ref flex justify-around mt-12">
+                                <a class="proj-code p-3 shadow-md round-2xl" target="_blank" href="https://github.com/thynamoral/scoreKeeper">
+                                    Code <i class="fa-brands fa-github fa-xl"></i>
+                                </a>
+                                <a class="proj-demo p-3 shadow-md round-2xl" target="_blank" href="https://thynamoral.github.io/scoreKeeper/">
+                                    Live Demo <i class="fa-solid fa-up-right-from-square fa-xl"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="flex justify-center">
+            <div class="container contact-content">
+                <div class="contact-text">
+                    <p class="font-semibold text-lg pb-3 highlight">CONTACT</p>
+                    <h3 class="font-bold text-2xl pb-2">Don't be shy! Hit me up!👇</h3>
+                </div>
+                <div class="contact-info mt-14 flex gap-24">
+                    <div class="location flex items-center gap-10 p-5">
+                        <i class="fa-solid fa-map-location-dot fa-2xl highlight"></i>
+                        <div class="flex flex-col">
+                            <p class="font-bold">Location</p>
+                            <p class="opacity-75">Poipet, Cambodia</p>
+                        </div>
+                    </div>
+                    <div class="mail flex items-center gap-10 p-5">
+                        <i class="fa-regular fa-envelope fa-2xl highlight"></i>
+                        <div class="flex flex-col">
+                            <p class="font-bold">Mail</p>
+                            <p class="opacity-75">thynamoral18@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
+
+    <footer class="flex justify-center">
+        <div class="container flex justify-between footer-content">
+            <h3>
+                Copyright &copy; 2023. All rights are reserved
+            </h3>
+            <div class="footer-socials">
+                <a href="https://www.linkedin.com/in/namoral-thy-2656b8234/" class="mr-6" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+                <a href="https://github.com/thynamoral" class="mr-6" target="_blank"><i class="fa-brands fa-github fa-2xl"></i></a>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
