@@ -164,7 +164,7 @@ section > .container, .container {
 .proj-img > img {
     width: 100%;
     height: auto;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .proj-text {
@@ -312,7 +312,7 @@ footer {
         width: 100%;
         max-width: 570px;
         height: auto;
-        flex-direction: column;
+        flex-direction: column !important;
         gap: 20px;
         padding: 3rem 0 !important;
     }
